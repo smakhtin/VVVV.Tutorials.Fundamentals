@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta27.dtd" >
-   <PATCH nodename="C:\Users\Smakhtin\Documents\Repos\VVVV.Tutorials.Fundamentals\0. Основы.v4p" filename="C:\kimchiandchips\Workshops\VVVV-basics,mapping\template.v4p" locked="0" systemname="template">
-   <BOUNDS height="11760" left="930" top="0" type="Window" width="19800">
+   <PATCH nodename="C:\Users\Smakhtin\Documents\Repos\VVVV.Tutorials.Fundamentals\0. Basics.v4p" filename="C:\kimchiandchips\Workshops\VVVV-basics,mapping\template.v4p" locked="0" systemname="template">
+   <BOUNDS height="11520" left="5595" top="0" type="Window" width="8730">
    </BOUNDS>
    <NODE componentmode="InABox" id="0" nodename="IOBox (String)" systemname="IOBox (String)">
    <BOUNDS height="270" left="225" top="150" type="Node" width="1380">
@@ -203,9 +203,9 @@
    </PIN>
    </NODE>
    <NODE componentmode="InABox" id="24" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
-   <BOUNDS height="100" left="1050" top="10455" type="Node" width="100">
+   <BOUNDS height="100" left="1050" top="9855" type="Node" width="100">
    </BOUNDS>
-   <BOUNDS height="660" left="1050" top="10455" type="Box" width="1965">
+   <BOUNDS height="660" left="1050" top="9855" type="Box" width="1965">
    </BOUNDS>
    <PIN pinname="Size" slicecount="1" values="24">
    </PIN>
@@ -215,9 +215,9 @@
    </PIN>
    </NODE>
    <NODE componentmode="InABox" id="25" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
-   <BOUNDS height="100" left="3450" top="10455" type="Node" width="100">
+   <BOUNDS height="100" left="3450" top="9855" type="Node" width="100">
    </BOUNDS>
-   <BOUNDS height="660" left="3450" top="10455" type="Box" width="1965">
+   <BOUNDS height="660" left="3450" top="9855" type="Box" width="1965">
    </BOUNDS>
    <PIN pinname="Size" slicecount="1" values="24">
    </PIN>
@@ -329,9 +329,9 @@
    </PIN>
    </NODE>
    <NODE componentmode="InABox" id="37" nodename="IOBox (String)" systemname="IOBox (String)">
-   <BOUNDS height="270" left="1470" top="8475" type="Node" width="2070">
+   <BOUNDS height="270" left="1470" top="8025" type="Node" width="2070">
    </BOUNDS>
-   <BOUNDS height="345" left="1470" top="8475" type="Box" width="3225">
+   <BOUNDS height="345" left="1470" top="8025" type="Box" width="3225">
    </BOUNDS>
    <PIN encoded="0" pinname="Input String" slicecount="1" visible="0" values="|[7 - Представление связей]&cr;&lf;Вы можете менять представление связей выделяя их, и нажимая &lt;key&gt;CTRL&lt;/key&gt;+&lt;key&gt;Y&lt;/key&gt;.&cr;&lf;&lt;br/&gt;|">
    </PIN>
@@ -349,9 +349,9 @@
    </PIN>
    </NODE>
    <NODE componentmode="InABox" id="38" nodename="IOBox (String)" systemname="IOBox (String)">
-   <BOUNDS height="270" left="5625" top="11130" type="Node" width="2070">
+   <BOUNDS height="270" left="5625" top="10530" type="Node" width="2070">
    </BOUNDS>
-   <BOUNDS height="315" left="5625" top="11130" type="Box" width="1545">
+   <BOUNDS height="315" left="5625" top="10530" type="Box" width="1545">
    </BOUNDS>
    <PIN encoded="0" pinname="Input String" slicecount="1" visible="0" values="|[9 - Помощь]&cr;&lf;Если у вас возникли вопросы, воспользуйтесь одним из этих советов:&cr;&lf;&lt;ul&gt;&cr;&lf;&lt;li&gt;Что бы просмотреть помощь по ноду, выделите его &lt;click/&gt;&lt;lmb/&gt; и нажмите &lt;key&gt;F1&lt;/key&gt;.&lt;/li&gt;&cr;&lf;&lt;li&gt;Примеры патчей, выполенных на VVVV находятся в папке &lt;b&gt;girlpower&lt;/b&gt;, которая лежит внутри папки с VVVV.&lt;/li&gt;&cr;&lf;&lt;li&gt;На сайте &lt;b&gt;vvvv.org&lt;/b&gt; есть отличный форум, где вам всегда помогут.&lt;/li&gt;&cr;&lf;&lt;li&gt;На YouTube и Vimeo есть много видеоуроков и видеодокументаций работ.&lt;/li&gt;&cr;&lf;&lt;/ul&gt;|">
    </PIN>
@@ -371,9 +371,9 @@
    <LINK dstnodeid="24" dstpinname="Y Input Value" srcnodeid="14" srcpinname="Output">
    </LINK>
    <LINK dstnodeid="25" dstpinname="Y Input Value" linkstyle="VHV" srcnodeid="14" srcpinname="Output">
-   <LINKPOINT x="1110" y="8978">
+   <LINKPOINT x="1110" y="8778">
    </LINKPOINT>
-   <LINKPOINT x="3450" y="8978">
+   <LINKPOINT x="3450" y="8578">
    </LINKPOINT>
    </LINK>
    </PATCH>
