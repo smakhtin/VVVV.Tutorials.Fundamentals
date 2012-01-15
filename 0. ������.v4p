@@ -1,0 +1,379 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta27.dtd" >
+   <PATCH nodename="C:\Users\Smakhtin\Documents\Repos\VVVV.Tutorials.Fundamentals\0. Основы.v4p" filename="C:\kimchiandchips\Workshops\VVVV-basics,mapping\template.v4p" locked="0" systemname="template">
+   <BOUNDS height="11760" left="930" top="0" type="Window" width="19800">
+   </BOUNDS>
+   <NODE componentmode="InABox" id="0" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="225" top="150" type="Node" width="1380">
+   </BOUNDS>
+   <BOUNDS height="1095" left="225" top="150" type="Box" width="7665">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Input String" slicecount="1" visible="0" values="|0. Основы|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="42">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="1" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="5025" top="5910" type="Node" width="2070">
+   </BOUNDS>
+   <BOUNDS height="330" left="5025" top="5910" type="Box" width="1230">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Input String" slicecount="1" visible="0" values="|[5 - Пины]&cr;&lf;Пины позволяют нодам принимать и выводить данные.&cr;&lf;&lt;br /&gt;&cr;&lf;&cr;&lf;Линии, которыми соединяются пины, называются &lt;concept&gt;Связями&lt;/concept&gt; и позволяют передавать данные из одного пина в другой.&cr;&lf;&lt;br /&gt;&cr;&lf;&cr;&lf;Пины сверху каждого нода называются &lt;concept&gt;Входами&lt;/concept&gt;, а снизу &lt;concept&gt;Выходами&lt;/concept&gt; или исходящими.&cr;&lf;&lt;br /&gt;&cr;&lf;&cr;&lf;В этой документации мы обозначаем пин, как &lt;pin&gt;Название пина&lt;/pin&gt;.&cr;&lf;&lt;br /&gt;&cr;&lf;&cr;&lf;Каждый входной пин может быть подключен только к одному выходу, тогда как выход всегда может быть подключен к неограниченному числу входов.&cr;&lf;&lt;br /&gt;&cr;&lf;&cr;&lf;Если вы наведете указатель мыши на один из пинов, то сможете увидеть его значение.&cr;&lf;&lt;br /&gt;&cr;&lf;&cr;&lf;Пины могут хранить значения. Когда вы отсоединяете связь от входного пина, он сохраняет последнее значение, которое туда передавалось.|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Font" slicecount="1" values="|Arial Black|">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="10">
+   </PIN>
+   <PIN encoded="0" pinname="Descriptive Name" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="2" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="105" top="12045" type="Node" width="2070">
+   </BOUNDS>
+   <BOUNDS height="750" left="105" top="12045" type="Box" width="5325">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Input String" slicecount="1" visible="0" values="|Created by Elliot Woods.&cr;&lf;Distributed under the MIT license (check file LICENSE) for details.&cr;&lf;Generally you can do whatever you want with these files. have fun!|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="5" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="5805" top="2640" type="Node" width="1380">
+   </BOUNDS>
+   <BOUNDS height="915" left="5805" top="2640" type="Box" width="2490">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Input String" visible="1">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="12">
+   </PIN>
+   <PIN encoded="0" pinname="Descriptive Name" slicecount="1" values="Автор">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="6" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="225" top="1260" type="Node" width="1380">
+   </BOUNDS>
+   <BOUNDS height="1155" left="225" top="1260" type="Box" width="7665">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Input String" visible="1">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="12">
+   </PIN>
+   <PIN encoded="0" pinname="Descriptive Name" slicecount="1" values="Описание">
+   </PIN>
+   <PIN pinname="Character Encoding" slicecount="1" values="UTF8">
+   </PIN>
+   </NODE>
+   <INFO author="Elliot Woods, Vadim Smakhtin" description="В этом патче мы складываем одно значение с другим, что бы понять основную структуру и особенности VVVV." tags="ноды, связи">
+   </INFO>
+   <NODE componentmode="Hidden" filename="Subpatches\GetMetadata (VVVV).v4p" hiddenwhenlocked="1" id="10" nodename="GetMetadata (VVVV)" systemname="GetMetadata (VVVV)">
+   <BOUNDS height="100" left="5820" top="1800" type="Node" width="100">
+   </BOUNDS>
+   <PIN pinname="Patch" visible="1">
+   </PIN>
+   <BOUNDS height="3465" left="14520" top="5520" type="Window" width="4680">
+   </BOUNDS>
+   <PIN pinname="Author" visible="1">
+   </PIN>
+   <PIN pinname="Description" visible="1">
+   </PIN>
+   <PIN pinname="Tags" visible="1">
+   </PIN>
+   </NODE>
+   <NODE componentmode="Hidden" hiddenwhenlocked="1" id="8" nodename="PatchAlias (VVVV)" systemname="PatchAlias (VVVV)">
+   <BOUNDS height="100" left="5820" top="1350" type="Node" width="100">
+   </BOUNDS>
+   <PIN pinname="Patch" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="10" dstpinname="Patch" hiddenwhenlocked="1" srcnodeid="8" srcpinname="Patch">
+   </LINK>
+   <LINK dstnodeid="6" dstpinname="Input String" hiddenwhenlocked="1" linkstyle="VHV" srcnodeid="10" srcpinname="Description">
+   <LINKPOINT x="6445" y="2205">
+   </LINKPOINT>
+   <LINKPOINT x="245" y="2355">
+   </LINKPOINT>
+   </LINK>
+   <NODE componentmode="InABox" id="11" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="225" top="2640" type="Node" width="1380">
+   </BOUNDS>
+   <BOUNDS height="540" left="225" top="2640" type="Box" width="5520">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Input String" visible="1">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="12">
+   </PIN>
+   <PIN encoded="0" pinname="Descriptive Name" slicecount="1" values="Тэги">
+   </PIN>
+   <PIN pinname="Character Encoding" slicecount="1" values="UTF8">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="11" dstpinname="Input String" hiddenwhenlocked="1" linkstyle="VHV" srcnodeid="10" srcpinname="Tags">
+   <LINKPOINT x="7015" y="2293">
+   </LINKPOINT>
+   <LINKPOINT x="275" y="2448">
+   </LINKPOINT>
+   </LINK>
+   <LINK dstnodeid="5" dstpinname="Input String" hiddenwhenlocked="1" srcnodeid="10" srcpinname="Author">
+   </LINK>
+   <NODE componentmode="InABox" id="12" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
+   <BOUNDS height="100" left="1065" top="5205" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS height="660" left="1065" top="5205" type="Box" width="1965">
+   </BOUNDS>
+   <PIN pinname="Size" slicecount="1" values="24">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="13" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
+   <BOUNDS height="100" left="4935" top="5190" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS height="660" left="4935" top="5190" type="Box" width="1965">
+   </BOUNDS>
+   <PIN pinname="Size" slicecount="1" values="24">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <NODE componentmode="Hidden" id="14" nodename="Add (Value)" systemname="Add (Value)">
+   <BOUNDS height="270" left="1050" top="7245" type="Node" width="3945">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="14" dstpinname="Input 1" srcnodeid="12" srcpinname="Y Output Value">
+   </LINK>
+   <LINK dstnodeid="14" dstpinname="Input 2" srcnodeid="13" srcpinname="Y Output Value">
+   </LINK>
+   <NODE componentmode="InABox" id="22" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="1050" top="4785" type="Node" width="2070">
+   </BOUNDS>
+   <BOUNDS height="345" left="1050" top="4785" type="Box" width="1725">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Input String" slicecount="1" visible="0" values="|[4 - IOBox]&cr;&lf;&lt;node&gt;IOBox&lt;/node&gt; это специальный тип нодов, необходимых для ввода и вывода данных.&cr;&lf;&lt;br /&gt;&cr;&lf;&cr;&lf;Попробуйте поменять значение нода кликнув по нему два раза левой кнопкой мыши &lt;click2/&gt;&lt;lmb/&gt;. Или зажав правую кнопку мыши &lt;hold /&gt;&lt;rmb /&gt; перемещайте курсор вверх и вниз.|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Font" slicecount="1" values="|Arial Black|">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="10">
+   </PIN>
+   <PIN encoded="0" pinname="Descriptive Name" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="24" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
+   <BOUNDS height="100" left="1050" top="10455" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS height="660" left="1050" top="10455" type="Box" width="1965">
+   </BOUNDS>
+   <PIN pinname="Size" slicecount="1" values="24">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Y Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="25" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
+   <BOUNDS height="100" left="3450" top="10455" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS height="660" left="3450" top="10455" type="Box" width="1965">
+   </BOUNDS>
+   <PIN pinname="Size" slicecount="1" values="24">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Y Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="31" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="660" top="3435" type="Node" width="2070">
+   </BOUNDS>
+   <BOUNDS height="360" left="660" top="3435" type="Box" width="1755">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Input String" slicecount="1" visible="0" values="|[0 - Патч]&cr;&lf;При первом запуске VVVV вы должны увидеть серый пустой экран. Не пугайтесь, все уже работает.&cr;&lf;&lt;br /&gt;&cr;&lf;&cr;&lf;Серый квадрат, который вы видите, представляет собой главное окно VVVV. Он же является местом, где вы будуте создавать свой &lt;concept&gt;Патч&lt;/concept&gt;.&cr;&lf;&lt;br /&gt;&cr;&lf;&cr;&lf;Патчи - это программы на языке VVVV. Патч может выполнять самые различные задачи и быть как независимым, так и вложенным в другой, больший по размеру. Такой патч называется &lt;concept&gt;Субпатч&lt;/concept&gt; или &lt;concept&gt;Модуль&lt;/concept&gt;.&cr;&lf;&lt;br /&gt;&cr;&lf;&cr;&lf;Все патчи состоят из &lt;concept&gt;Нодов&lt;/concept&gt; и &lt;concept&gt;Связей&lt;/concept&gt;.&cr;&lf;&lt;br /&gt;|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Font" slicecount="1" values="|Arial Black|">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="10">
+   </PIN>
+   <PIN encoded="0" pinname="Descriptive Name" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Character Encoding" slicecount="1" values="ANSI">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="32" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="660" top="3735" type="Node" width="2070">
+   </BOUNDS>
+   <BOUNDS height="330" left="660" top="3735" type="Box" width="2280">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Input String" slicecount="1" visible="0" values="|[1 - Создаем ноды]&cr;&lf;&lt;click2/&gt; &lt;lmb /&gt;  в пустом месте патча.&cr;&lf;&lt;br /&gt;&cr;&lf;&cr;&lf;Вы должны увидеть окно &lt;concept&gt;Браузера нодов&lt;/concept&gt; , который вы можете использовать для создания и поиска новых объектов. Попробуйте ввести произвольный текст в его окно и вы увидите, как браузер начинает подбирать наиболее подходящие по написанию варианты.&cr;&lf;&lt;br /&gt;&cr;&lf;&cr;&lf;Что бы создать нод просто &lt;click /&gt;&lt;lmb /&gt; по нему.&cr;&lf;&lt;br /&gt;&cr;&lf;&cr;&lf;&lt;click /&gt;&lt;rmb /&gt; Правый клик по полю ввода браузера позволяет вам просматривать ноды по категориям.&cr;&lf;&lt;br /&gt;|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Font" slicecount="1" values="|Arial Black|">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="10">
+   </PIN>
+   <PIN encoded="0" pinname="Descriptive Name" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="33" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="660" top="4035" type="Node" width="2070">
+   </BOUNDS>
+   <BOUNDS height="315" left="660" top="4035" type="Box" width="3855">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Input String" slicecount="1" visible="0" values="|[2 - Перемещение по окну патча]&cr;&lf;Сколлить патч в VVVV можно двумя путями.&cr;&lf;&lt;br /&gt;&cr;&lf;&cr;&lf;&lt;ol&gt;&cr;&lf;&lt;li&gt;&lt;b&gt;Нажмите и удерживайте правую кнопку мыши &lt;hold/&gt;&lt;rmb/&gt; &lt;/b&gt;&lt;br /&gt;&cr;&lf;Теперь, не отпуская кнопки начните перемещать мышку по всему окну патча. Что бы прекратить перемещение просто отпустите кнопку &lt;release/&gt;&lt;rmb/&gt;. &lt;br /&gt; Будте осторожны, никогда не кликайте  правой кнопкой мыши &lt;click/&gt;&lt;rmb/&gt; во время скролла по связям- это удаляет их.&lt;/li&gt;&cr;&lf;&cr;&lf;&lt;li&gt;&lt;b&gt;С помощью колеса мыши &lt;scroll /&gt;&lt;/b&gt; &lt;br /&gt;&cr;&lf;Вы можете прокручивать патч вверх и вниз используя &lt;scroll /&gt; или влево и вправо с помощью &lt;key&gt;Alt&lt;/key&gt;+&lt;scroll /&gt;. Что бы прокручивать патч быстрее, просто зажимайте &lt;key&gt;Ctrl&lt;/key&gt;.&lt;/li&gt;&cr;&lf;&lt;/ol&gt;|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Font" slicecount="1" values="|Arial Black|">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="10">
+   </PIN>
+   <PIN encoded="0" pinname="Descriptive Name" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="34" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="1275" top="6510" type="Node" width="2070">
+   </BOUNDS>
+   <BOUNDS height="345" left="1275" top="6510" type="Box" width="1275">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Input String" slicecount="1" visible="0" values="|[6 - Связи]&cr;&lf;Как мы уже говорили, когда мы подключаем один пин к другому, мы создаем &quot;связь&quot;.&cr;&lf;&lt;br /&gt;&cr;&lf;&cr;&lf;Что бы лучше представить себе, как через связи передаются данные, думайте о них как о неких трубах, сквозь которые, будто вода, течет поток чисел. Если расположить ноды вертикально, сохраняя структуру подключений, то поток всегда будет идти с самого верха, проходя сквозь ноды через входные подключения и распределяясь по исходящим.&lt;br /&gt;&cr;&lf;&cr;&lf;Что бы создать связь кликните &lt;click/&gt;&lt;lmb/&gt; по пину.&cr;&lf;&lt;br /&gt;&cr;&lf;&cr;&lf;После этого кликните &lt;click/&gt;&lt;lmb/&gt; по пину, к которому вы хотите подключиться. Те пины, к которым вам разрешено подключиться, становятся ярче. Это сделано для того, что бы у вас было меньше вероятности совершить ошибку. Например, мы не можете передать текстовое значение в &lt;node&gt;+ (Value)&lt;/node&gt;&cr;&lf;&lt;br /&gt;&cr;&lf;&cr;&lf;Что бы  удалить связь нажмите правой кнопкой мыши на ней &lt;click/&gt;&lt;rmb/&gt; или выделите ее &lt;click/&gt;&lt;lmb&gt; и нажмите &lt;key&gt;Delete&lt;/key&gt;.&cr;&lf;&cr;&lf;|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Font" slicecount="1" values="|Arial Black|">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="10">
+   </PIN>
+   <PIN encoded="0" pinname="Descriptive Name" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="35" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="660" top="4335" type="Node" width="2070">
+   </BOUNDS>
+   <BOUNDS height="315" left="660" top="4335" type="Box" width="2445">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Input String" slicecount="1" visible="0" values="|[3 - Главное меню]&cr;&lf;Главное меню содержит набор различных функций, практически все из которых могут быть вызваны с помощью горячих клавиш.&cr;&lf;&lt;br /&gt;&cr;&lf;&cr;&lf;Что бы вызвать Главное меню кликните средней кнопкой мыши по пустой области патча &lt;click/&gt;&lt;mmb/&gt;. Если у вас нет средней кнопки, нажмите &lt;key&gt;Shift&lt;/key&gt;+&lt;click/&gt;&lt;rmb/&gt;.&cr;&lf;&lt;br /&gt;|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Font" slicecount="1" values="|Arial Black|">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="10">
+   </PIN>
+   <PIN encoded="0" pinname="Descriptive Name" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="37" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="1470" top="8475" type="Node" width="2070">
+   </BOUNDS>
+   <BOUNDS height="345" left="1470" top="8475" type="Box" width="3225">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Input String" slicecount="1" visible="0" values="|[7 - Представление связей]&cr;&lf;Вы можете менять представление связей выделяя их, и нажимая &lt;key&gt;CTRL&lt;/key&gt;+&lt;key&gt;Y&lt;/key&gt;.&cr;&lf;&lt;br/&gt;|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Font" slicecount="1" values="|Arial Black|">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="10">
+   </PIN>
+   <PIN encoded="0" pinname="Descriptive Name" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="38" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="5625" top="11130" type="Node" width="2070">
+   </BOUNDS>
+   <BOUNDS height="315" left="5625" top="11130" type="Box" width="1545">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Input String" slicecount="1" visible="0" values="|[9 - Помощь]&cr;&lf;Если у вас возникли вопросы, воспользуйтесь одним из этих советов:&cr;&lf;&lt;ul&gt;&cr;&lf;&lt;li&gt;Что бы просмотреть помощь по ноду, выделите его &lt;click/&gt;&lt;lmb/&gt; и нажмите &lt;key&gt;F1&lt;/key&gt;.&lt;/li&gt;&cr;&lf;&lt;li&gt;Примеры патчей, выполенных на VVVV находятся в папке &lt;b&gt;girlpower&lt;/b&gt;, которая лежит внутри папки с VVVV.&lt;/li&gt;&cr;&lf;&lt;li&gt;На сайте &lt;b&gt;vvvv.org&lt;/b&gt; есть отличный форум, где вам всегда помогут.&lt;/li&gt;&cr;&lf;&lt;li&gt;На YouTube и Vimeo есть много видеоуроков и видеодокументаций работ.&lt;/li&gt;&cr;&lf;&lt;/ul&gt;|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Font" slicecount="1" values="|Arial Black|">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="10">
+   </PIN>
+   <PIN encoded="0" pinname="Descriptive Name" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="24" dstpinname="Y Input Value" srcnodeid="14" srcpinname="Output">
+   </LINK>
+   <LINK dstnodeid="25" dstpinname="Y Input Value" linkstyle="VHV" srcnodeid="14" srcpinname="Output">
+   <LINKPOINT x="1110" y="8978">
+   </LINKPOINT>
+   <LINKPOINT x="3450" y="8978">
+   </LINKPOINT>
+   </LINK>
+   </PATCH>
